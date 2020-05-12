@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+p,ul{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size:1.05em;
+
+}
+
+h1,h2,h3,h4{
+	font-family: 'Special Elite', cursive;
+}
+
+body{
+	background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% );
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+ul{
+	list-style:none;
+}
+
+i.fa{
+	color:lightblue;
+	font-size:3.5em;
+
+}
+
+i.fa:hover{
+	color:white;
+}
+
+.logo{
+	padding-top:5px;
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	height:auto;
+
+}
+
+.header-image{
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	height:auto;
+  	border-radius: 0px;
+  	padding-bottom:12px;
+}
+
+a:link{
+	color:#1f3d7a;
+}
+a:hover{
+	color:lightpink;
+}
+
+
+
+/* Navigation Bar */
+nav{
+	background-image: radial-gradient( circle 905px at 4.9% 85.8%,  rgba(255,243,242,1) 0.1%, rgba(255,247,220,1) 57.6% );
+}
+nav ul{
+	margin:0 auto;	
+	padding-top:0px;
+	font-size:1.05em;
+
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right:10px;
+}
+nav a:link{
+	color:lightblue;
+}
+nav a:visited{
+	color:darkblue;
+}
+nav a:hover{
+	color:lightpink;
+}
+nav a:active{
+	color:blue;
+}
+
+main{
+	max-width:1000px;
+	margin:0px auto;
+	text-align:center;
+
+
+}
+
+footer{
+	text-align:center;
+	margin-left:150px;
+	margin-right:150px;
+}
+
+
+/* Removes the bullets on ul list in a slide show */
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+
+}
+
+/*Adds a margin underneath each image in the slide show */
+.boxstyle{
+	margin-bottom:20px;
+	 border-radius: 0px;
+
+}
+
+/*Centers the images and sets a max width of 700px */
+.wb-carousel{
+	max-width:1400px;
+	margin:20px auto;
+}
+
+/*Controls for the modal slide show*/
+.controls{
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;
+}
+a.controls:hover{
+	text-decoration:none;
+}
+
+.next {
+    float:right;
+    text-align:right;
+}
+/* CSS for the icons page */
+.contact-icons{
+	text-align:center;
+}
+
+.contact-icons i{
+	font-size: 60px;
+	margin-top: 40px;
+}
+
+.contact-icons h2{
+	margin-bottom: 50px;
+}
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 1.5em;
+	}	
+}
